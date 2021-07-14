@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+    body {
+        background-color:black;
+        width: 100%;
+
+        height: 100vh;
+        background-size:cover;
+        overflow-x: hidden;
+        
+
+    }
+
+    
+
+    .content {
+
+
+position: relative;
+bottom: 0;
+
+background: whitesmoke;
+color: black;
+width: 80%;
+
+
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align:right;
+
+}
+
+.content1 {
+
+
+position: relative;
+bottom: 0;
+margin-left: 20%;
+background:cornflowerblue;
+color: black;
+width: 80%;
+
+
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+.img_right {
+    width:15%;
+    position:relative;
+    
+    object-fit: cover;
+    float:right;
+    
+    margin-right:30px;
+
+  
+}
+
+.img_left {
+    width:15%;
+    position:relative;
+    
+    object-fit: cover;
+    float:left;
+    
+    margin:10px;
+
+  
+}
+
+
+.content p,.content li {
+    text-align: Justify;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20%;
+    font-size: 20px;
+    padding-right: 10px ;
+
+    
+    
+}
+
+.content p{
+    margin-left:20px;
+}
+
+
+
+.content1 p,.content1 li {
+    text-align: justify;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:brown;
+   
+    
+}
+
+h1 {
+    text-align: center;
+    font-style: oblique;
+}
+
+
+
+
+#prof_pic{
+
+    width:10%;
+}
+
+.but_div{
+
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.btn {
+    position: relative;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 8 px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+@media (max-width:600px){
+
+    .content,.content1{
+
+        width:100%;
+        margin:0%;
+    }
+    .content p,.content li {
+    
+    line-height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+
+    }
+
+    .conent1 p,.content1 li{
+        margin-left: 20px;
+        
+
+    }
+
+    
+
+    
+    
+    
+
+    .img_left {
+        
+        display: none;
+        
+        margin:10px;
+    }
+
+    .img_right {
+
+        
+        display: none;
+    }
+
+    #prof_pic {
+
+        width:50%;
+        display:initial;
+    }
+
+
+}
+    
+
+    </style>
+    </head>
+    <body>
+
+
+
+
+
+    
+        <div class="content">
+            <h1>Conway's Game of Life</h1>
+            <img class="img_left" src="cgl.png" alt="CGL">
+            
+            <ul>
+                <li ><h2>Duration:</h2>From Deember 2020 to Jauary 2021</li>
+                <li><h2>Major:</h2>Information Technology</li>
+                <li><h2>Technologies used:</h2>Java, JUnit Testing</li>
+                <li>
+                    <h2>Brief Description:</h2>
+
+                    <ul>
+                        <li>The aim of CGL is to study the evolution of future generations from an initial configuration state</li>
+                        <li>Conducted test driven development in creating a console CGL application in Java</li>
+                        <li>Designed UML documents for all the custom classes</li>
+                        <li>Used JUnit Testing to create test cases and validate the application at various stages</li>
+                    </ul>
+                    
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="content1">
+            <h1>Battle of Neighbourhoods</h1>
+            <img class="img_right" src="tor.png" alt="Toronto">
+            
+            <ul>
+                <li ><h2>Duration:</h2>From May 2019 to August 2019</li>
+                <li><h2>Major:</h2>Machine Learning</li>
+                <li><h2>Technologies used:</h2>Python, SciKitLearn, Foursquare API</li>
+                <li>
+                    <h2>Brief Description:</h2>
+
+                    <ul>
+                        <li>Explored neighbourhoods in Toronto for a suitable location to set up an Italian restaurant</li>
+                        <li>Performed all the stages of the data science pipeline in Python</li>
+                        <li>Utilised FourSquare API to get neighbourhood details in Toronto</li>
+                        <li>Applied K-Means clustering algorithm to find the ideal location for the restaurant</li>
+                    </ul>
+                    
+                </li>
+            </ul>
+        </div>
+        <br>
+        
+        <div class="content">
+            <h1>Seam Carver</h1>
+            <img class="img_left" src="seam.png" alt="image">
+            <ul>
+                <li ><h2>Duration:</h2>From 2nd April  2021 to 9th April 2021</li>
+                <li><h2>Major:</h2>Information Technology</li>
+                <li><h2>Technologies used:</h2>Java</li>
+                <li>
+                    <h2>Brief Description:</h2>
+
+                    <ul>
+                        <li>Implemented a content-aware resizing algorithm in Java which has applications in Photoshop</li>
+                        <li>Incorporated efficient graph algorithms such as topological sort based shortest path search</li>
+                        <li>Provided client API methods to identity and remove strips of pixels and still retain significant features</li>
+                        
+                    </ul>
+                    
+                </li>
+            </ul>
+        </div>
+        
+        
+        
+        <div class="but_div">
+            <a href="index.html">        
+            <button class="btn">Home</button> 
+            </a>
+            
+            
+            <a href="about.html">
+                <button class="btn">About</button>
+                </a>
+            <a href="projects.html">
+            <button class="btn">Projects</button>
+            </a>
+            <a href="qualifications.html">
+            <button class="btn">Qualifications</button>
+            </a>
+            <a href="contact.html">
+                <button class="btn">Contact Me</button>
+                </a>
+            </div>
+
+
+    </body>
+    </html>
+</head>
