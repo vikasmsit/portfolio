@@ -2,6 +2,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <title>Qualifications</title>
     <style>
     body {
@@ -25,16 +27,13 @@
 
 background: whitesmoke;
 color: black;
-width: 80%;
-
-height: 80%;
+margin:10px;
 
 
 padding: 10px;
-margin-top: 20px;
-margin-bottom: 20px;
 
-text-align: center;
+
+text-align: centre;
 
 }
 
@@ -48,6 +47,54 @@ td{
 
     height:auto;
     
+}
+
+.my-container {
+
+    margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  text-align: center;
+  align-content: center;
+
+
+color: black;
+
+
+
+padding: 40px;
+
+
+
+}
+
+.inside_table {
+
+    text-align: right;
+}
+
+.my-container img{
+
+width:30%;
+margin-bottom: 30px;
+}
+
+.navbar{
+
+position:fixed;
+top:0;
+left:0;
+}
+
+.nav-item{
+
+background-color: DodgerBlue;
+padding: 8 px 16px;
+font-size: 16px;
+
+margin:5px;
 }
     
     
@@ -100,11 +147,11 @@ table {
         border-color: black;
         
         height: 20px;
-        width: 100%;
+        
         background-color:aqua;
         ;
 
-        width:40%
+        width:80%;
     }
 
 .progress_fill{
@@ -116,365 +163,309 @@ table {
 }
 
 
-#prof_pic{
-
-    width:10%;
-}
-
-.but_div{
-
-    position:fixed;
-    top:0;
-    left:0;
-}
-
-.btn {
-    position: relative;
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 8 px 16px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top:5px;
-  margin-bottom:5px;
-}
 
 
 
-.btn:hover {
-  background-color: RoyalBlue;
-}
 
 
-
-@media (max-width:600px){
-
-    .content,.content1{
-
-        width:100%;
-        margin:0%;
-    }
-    .content p,.content li {
-    
-    line-height: 35px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-size: 20px;
-
-    }
-
-    
-
-        
-
-    .conent1 p,.content1 li{
-        margin-left: 20px;
-        
-
-    }
-
-    
-
-    
-    
-    
-
-    
-
-
-}
     
 
     </style>
     </head>
     <body>
 
-
-
-
-
-        <table>
-        <tr>
-            <td>
-        <div class="content">
-            <h1>Work Experinece</h1>
-            <img class="img_cell" src="work_exp.png" alt="work Exp">
-            
-            <h2>Tunrkey Learning: </h2>
-            <ul>
-                <li >Type: Internship </li>
-                <li>Duration: May 5th 2021 to Jun2 28th 2021</li>
-                <li>Work summary: Machine Learning projects</li>
-                <li>Technologies used: Python, Pytorch, Neural Networks</li>
-            </ul>
-            
-        </div>
-    </td>
-    <td>
-        <div class="content">
-            <h1>Technical Skills</h1>
-            <img class="img_cell" src="tech_skills.png" alt="tech skills">
-
-            <table>
-            
-                <tr>
-
-                <td>
-                <li >HTML</li>
-            </td>
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:50%";></div>
+        <div class="container my-container">
+            <div class="row">
+              <div class="col-sm">
+                <div class="content">
+                    <h1>Work Experinece</h1>
+                    <img class="img_cell" src="work_exp.png" alt="work Exp">
+                    
+                    <h2>Tunrkey Learning: </h2>
+                    <ul>
+                        <li >Type: Internship </li>
+                        <li>Duration: May 5th 2021 to Jun2 28th 2021</li>
+                        <li>Work summary: Machine Learning projects</li>
+                        <li>Technologies used: Python, Pytorch, Neural Networks</li>
+                    </ul>
                 </div>
-            </td>
-            </tr>
-
-            <tr>
-            <td>
-                <li>Python</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:80%";></div>
+                    
                 </div>
-            </td>
-            
-            </tr>
+              <div class="col-sm">
+                <div class="content">
+                    <h1>Technical Skills</h1>
+                    <img class="img_cell" src="tech_skills.png" alt="tech skills">
         
-            <tr>
-                <td>
-                <li>Java</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:60%";></div>
-                </div>
-            </td>
-            
-
-            </tr>
-
-            <tr>
-                <td>
-                <li>MySQL</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:30%";></div>
-                </div>
-            </td>
-
-
-
-            </tr>
-            
-            <tr>
-                <td>
-                <li>C++</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:20%";></div>
-                </div>
-            </td>
-
-
-
-            </tr>
-
-            </table>
-        </div>
-    </td>
-    </tr>
-    <tr>
-    <td>
-        <div class="content">
-            <h1>Behavioural Skills</h1>
-            <img class="img_cell" src="beha_skills.png" alt="behavioural skills">
-
-            <table>
-            
-                <tr>
-
-                <td>
-                <li >Leadership</li>
-            </td>
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:90%";></div>
-                </div>
-            </td>
-            </tr>
-
-            <tr>
-            <td>
-                <li>Team Player</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:70%";></div>
-                </div>
-            </td>
-            
-            </tr>
+                    <table class="inside_table">
+                    
+                        <tr>
         
-            <tr>
-                <td>
-                <li>Detail oriented</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:95%";></div>
-                </div>
-            </td>
-            
-
-            </tr>
-
-            <tr>
-                <td>
-                <li>Disciplined</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:70%";></div>
-                </div>
-            </td>
-
-
-
-            </tr>
-            
-            <tr>
-                <td>
-                <li>Hard Worker</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:80%";></div>
-                </div>
-            </td>
-
-
-
-            </tr>
-
-            </table>
-        </div>
+                        <td>
+                        <li >HTML</li>
+                    </td>
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:50%";></div>
+                        </div>
+                    </td>
+                    </tr>
         
-    </td>
-    <td>
-        <div class="content">
-            <h1>Language Skills</h1>
-            <img class="img_cell" src="lang_skills.png" alt="language skills">
-
-            <table>
-            
-                <tr>
-
-                <td>
-                <li >English</li>
-            </td>
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:80%";></div>
-                </div>
-            </td>
-            </tr>
-
-            <tr>
-            <td>
-                <li>Telugu</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:90%";></div>
-                </div>
-            </td>
-            
-            </tr>
+                    <tr>
+                    <td>
+                        <li>Python</li>
+                    </td>
         
-            <tr>
-                <td>
-                <li>Hindi</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:60%";></div>
-                </div>
-            </td>
-            
-
-            </tr>
-
-            <tr>
-                <td>
-                <li>French</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:20%";></div>
-                </div>
-            </td>
-
-
-
-            </tr>
-            
-            <tr>
-                <td>
-                <li>Tamil</li>
-            </td>
-
-            <td>
-                <div class="progress_bar" >
-                    <div class="progress_fill" style="width:20%";></div>
-                </div>
-            </td>
-
-
-
-            </tr>
-
-            </table>
-        </div>
-    </td>
-    </tr>
-    </table>
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:80%";></div>
+                        </div>
+                    </td>
+                    
+                    </tr>
+                
+                    <tr>
+                        <td>
+                        <li>Java</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:60%";></div>
+                        </div>
+                    </td>
+                    
+        
+                    </tr>
+        
+                    <tr>
+                        <td>
+                        <li>MySQL</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:30%";></div>
+                        </div>
+                    </td>
         
         
-        <div class="but_div">
-            <a href="index.html">        
-            <button class="btn">Home</button> 
-            </a>
+        
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                        <li>C++</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:20%";></div>
+                        </div>
+                    </td>
+        
+        
+        
+                    </tr>
+        
+                    </table>
+                </div>
+              </div>
+              </div>
+        
             
-            
-            <a href="about.html">
-                <button class="btn">About</button>
-                </a>
-            <a href="projects.html">
-            <button class="btn">Projects</button>
-            </a>
-            <a href="qualifications.html">
-            <button class="btn">Qualifications</button>
-            </a>
-            <a href="contact.html">
-                <button class="btn">Contact Me</button>
-                </a>
+            <div class="row">
+              <div class="col-sm">
+                <div class="content">
+                    <h1>Behavioural Skills</h1>
+                    <img class="img_cell" src="beha_skills.png" alt="behavioural skills">
+        
+                    <table>
+                    
+                        <tr>
+        
+                        <td>
+                        <li >Leadership</li>
+                    </td>
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:90%";></div>
+                        </div>
+                    </td>
+                    </tr>
+        
+                    <tr>
+                    <td>
+                        <li>Team Player</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:70%";></div>
+                        </div>
+                    </td>
+                    
+                    </tr>
+                
+                    <tr>
+                        <td>
+                        <li>Detail oriented</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:95%";></div>
+                        </div>
+                    </td>
+                    
+        
+                    </tr>
+        
+                    <tr>
+                        <td>
+                        <li>Disciplined</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:70%";></div>
+                        </div>
+                    </td>
+        
+        
+        
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                        <li>Hard Worker</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:80%";></div>
+                        </div>
+                    </td>
+        
+        
+        
+                    </tr>
+        
+                    </table>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="content">
+                    <h1>Language Skills</h1>
+                    <img class="img_cell" src="lang_skills.png" alt="language skills">
+        
+                    <table>
+                    
+                        <tr>
+        
+                        <td>
+                        <li >English</li>
+                    </td>
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:80%";></div>
+                        </div>
+                    </td>
+                    </tr>
+        
+                    <tr>
+                    <td>
+                        <li>Telugu</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:90%";></div>
+                        </div>
+                    </td>
+                    
+                    </tr>
+                
+                    <tr>
+                        <td>
+                        <li>Hindi</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:60%";></div>
+                        </div>
+                    </td>
+                    
+        
+                    </tr>
+        
+                    <tr>
+                        <td>
+                        <li>French</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:20%";></div>
+                        </div>
+                    </td>
+        
+        
+        
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                        <li>Tamil</li>
+                    </td>
+        
+                    <td>
+                        <div class="progress_bar" >
+                            <div class="progress_fill" style="width:20%";></div>
+                        </div>
+                    </td>
+        
+        
+        
+                    </tr>
+        
+                    </table>
+                </div>
+              </div>
+        
             </div>
+            
+          
+
+
+
+
+        
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home </a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="projects.html">Projects</a>
+                    <a class="nav-item nav-link active" href="qualifications.html">Qualifications<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link " href="contact.html">Contact Me</a>
+                    
+                  </div>
+                </div>
+              </nav>
+            
+              
+               
+                  
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
 
 
     </body>
