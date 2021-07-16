@@ -159,7 +159,9 @@ font-size: 16px;
 margin:5px;
 }
 
-
+.vis{
+    display:none
+}
 
 @media (max-width:767px){
 
@@ -184,17 +186,28 @@ margin:5px;
 
     }
 
+    .media {
+
+        display:none;
+    }
+
 
 
     
 
-    
+    .vis{
+        display:initial;
+        
+        
+        
+    }
     
     
 
     .img_left {
         
         display: none;
+        
         
         margin:10px;
     }
@@ -209,6 +222,7 @@ margin:5px;
 
         width:50%;
         display:initial;
+        
     }
 
 
@@ -226,7 +240,8 @@ margin:5px;
     
         <div class="content">
             <h1>Career Objective</h1>
-            <img class="img_left" id="prof_pic" src="vikas_fin_1.jpg" alt="Profile Pic">
+            <div class="vis">
+            <img class="img_left" style="float:center;" id="prof_pic" src="vikas_fin_1.jpg" alt="Profile Pic">
             
             <p>
                 Developed multiple applications in Java. Developed machine learning solutions using python. Incorporated efficient algorithms and data structures in various projects. Guided multiple teams towards project completion under tight deadlines.
@@ -234,6 +249,20 @@ margin:5px;
             <p>
                 Capable of end-to-end software construction. Quick to adapt to new programming/application development software as per company’s requirements
             </p>
+            </div>
+
+            <div class="media">
+                <img class="align-self-start mr-3" id="prof_pic" src="vikas_fin_1.jpg" alt="Generic placeholder image">
+                <div class="media-body">
+                
+                  <p>
+                    Developed multiple applications in Java. Developed machine learning solutions using python. Incorporated efficient algorithms and data structures in various projects. Guided multiple teams towards project completion under tight deadlines.
+                </p>
+                <p>
+                    Capable of end-to-end software construction. Quick to adapt to new programming/application development software as per company’s requirements
+                </p>
+                </div>
+              </div>
         </div>
         <br>
         <div class="content1">
